@@ -1,0 +1,31 @@
+// import { is as isUtil } from 'remote-sys-base/Utils';
+import Utils from 'remote-sys-base/Utils';
+// 单独导出每个方法
+export const {
+  is,
+  isDef,
+  isUnDef,
+  isObject,
+  isEmpty,
+  isDate,
+  isNull,
+  isNullAndUnDef,
+  isNullOrUnDef,
+  isNumber,
+  isPromise,
+  isString,
+  isFunction,
+  isBoolean,
+  isRegExp,
+  isArray,
+  isWindow,
+  isElement,
+  isMap,
+  isServer,
+  isClient,
+  isUrl,
+  isDark,
+  isImgPath,
+  isEmptyVal,
+  isDecimal,
+} = Utils.is;
